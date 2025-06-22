@@ -1,0 +1,40 @@
+@import url("/assets/fontawesome-free-6.7.2-web/css/all.min.css");
+
+@font-face {
+  font-family: "UTM Avo";
+  src: url("/assets/fonts/UTM-Avo/UTM-Avo/UTM\ Avo.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+    --font: "UTM Avo";
+    --primary-color: #90c74c;
+    --white: #fff;
+    --black: #000;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: var(--font);
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
+}
