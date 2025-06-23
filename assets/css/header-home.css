@@ -111,6 +111,7 @@
     background-color: #f6f6f6;
     transition: transform 0.2s ease, opacity 0.2s ease;
     opacity: 0;
+    z-index: 1;
 }
 
 .sub-nav-item {

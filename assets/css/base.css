@@ -20,6 +20,7 @@
     --font-bold: "UTM Avo Bold";
     --primary-color: #90c74c;
     --text-color: #47771f;
+    --text-sub-color: #519d12;
     --button-color: #73cc19;
     --white: #fff;
     --black: #000;
@@ -40,7 +41,7 @@ html {
 
 body {
     font-size: 1.6rem;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 button {
