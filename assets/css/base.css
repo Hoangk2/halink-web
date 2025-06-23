@@ -7,11 +7,24 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "UTM Avo Bold";
+  src: url("/assets/fonts/UTM-Avo/UTM-Avo/UTM\ AvoBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 :root {
     --font: "UTM Avo";
+    --font-bold: "UTM Avo Bold";
     --primary-color: #90c74c;
+    --text-color: #47771f;
+    --button-color: #73cc19;
     --white: #fff;
     --black: #000;
+    --header-homepage-height: 80px;
+    --modal-color: #f6f6f6;
 }
 
 * {
@@ -21,20 +34,29 @@
 }
 
 html {
-    font-family: var(--font);
+    font-family: var(--font), Arial, Helvetica, sans-serif;;
     font-size: 62.5%;
 }
 
 body {
     font-size: 1.6rem;
+    overflow: hidden;
 }
 
 button {
     border: none;
     outline: none;
-    background: var(--primary-color);
 }
 
 a {
     text-decoration: none;
+}
+
+.btn {
+    color: #fff;
+    padding: 4px 15px;
+    background-color: var(--button-color);
+    line-height: 1.7;
+    border-radius: 20px;
+    font-size: 1.7rem;
 }

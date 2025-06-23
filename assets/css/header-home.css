@@ -1,0 +1,138 @@
+.header {
+    height: var(--header-homepage-height);
+    position: relative;
+}
+
+.header-container.row {
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.header-logo {
+    max-width: 90px;
+    aspect-ratio: 5/3;
+}
+
+.header-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.header-wrap {
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.header-nav {
+    display: flex;
+    margin-right: 16px;
+}
+
+.nav-item {
+    height: var(--header-homepage-height);
+    line-height: var(--header-homepage-height);
+    position: relative;
+}
+
+.nav-item::after {
+    content: " ";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: 2px;
+    left: 0;
+    background-color: #4f9a10;
+    transition: width 0.2s ease;
+}
+
+.nav-item:hover::after {
+    width: 100%;
+}
+
+.nav-item-plus .icon {
+    display: none;
+}
+
+.nav-item a {
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: var(--black);
+    padding: 0 6px;
+    text-transform: uppercase;
+}
+
+.nav-item:hover > a{
+    color: var(--text-color);
+}
+
+.header-tool {
+    display: flex;
+    align-items: center;
+}
+
+.header-tool .phone {
+    margin-right: 16px;
+}
+
+.header-tool .phone .icon {
+    font-size: 1.3rem;
+}
+
+.header-tool .advise {
+    margin-right: 16px;
+    font-family: var(--font);
+}
+
+.header-tool .gift .icon{
+    font-size: 2.8rem;
+    color: var(--button-color)
+}
+
+.nav-item.active     {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-item.active:hover .sub-list {
+    transform: translateX(-20px);
+    opacity: 1;
+    visibility: visible;
+}
+
+.sub-list {
+    visibility: none;
+    position: absolute;
+    top: var(--header-homepage-height);
+    left: 20px;
+    min-width: 270px;
+    background-color: #f6f6f6;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    opacity: 0;
+}
+
+.sub-nav-item {
+    padding: 10px 20px;
+    line-height: 1.6;
+    text-transform: uppercase;
+}
+
+.sub-nav-item:hover {
+    cursor: pointer;
+}
+
+.sub-nav-item a {
+    font-size: 1.5rem;
+    color: #6d6d6d;
+    transition: color 0.3s ease;
+}
+
+.sub-nav-item a:hover {
+    color: var(--button-color);
+}
+
+.header-tool-icon .icon {
+    display: none;
+}
