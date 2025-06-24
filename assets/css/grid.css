@@ -225,6 +225,7 @@
     .service-item {
         flex-direction: column;
         position: static;
+        padding: 10px;
     }
     
     .item-img,
@@ -232,7 +233,7 @@
         position: static;
         transform : translateX(0);
         order: 1;
-        margin: 0 auto;
+        align-self: center;
     }
 
     .item-desc {
@@ -242,6 +243,8 @@
     .service-item {
         padding: 15px 10px;
         height: auto;
+        width: 400px;
+        justify-self: center;
     }
    
     .service-item h3 {
@@ -256,7 +259,31 @@
         align-self: self-start;
     }
 
+    /*Reason*/
+    .reason {
+        height: 826px;
+        padding: 0 15px;
+    }
 
+    .reason-container {
+        top: 40px;
+        width: 100%;
+        padding: 10px;
+        max-height: 651px;
+    }
+    
+    .reason-heading::after {
+        bottom: -20px;
+        width: 90px;
+    }
+
+    .reason-wrap {
+        width: 100%;
+    }
+
+    .reason-wrap > .row > .col {
+        margin-bottom: 30px;
+    }
 
 
 

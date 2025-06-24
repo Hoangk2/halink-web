@@ -246,3 +246,83 @@
 .service-item.right p {
     text-align: start;
 }
+
+.reason {
+    height: 448px;
+    position: relative;
+}
+
+.reason::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--white);
+    filter: brightness(50%);
+    background: url(/assets/images/office-halink-2.jpg) no-repeat center / cover;
+    z-index: 1;
+}
+
+.reason-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 70px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reason-heading {
+    text-align: center;
+    position: relative;
+    height: 71px;
+    margin-bottom: 70px;
+}
+
+.reason-heading::after {
+    content: "";
+    position: absolute;
+    width: 110px;
+    height: 2px;
+    background-color: var(--text-sub-color);
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+}
+
+.reason-heading-tittle {
+    font-size: 3rem;
+    color: var(--white);
+}
+
+.reason-wrap {
+    width: 1300px;
+}
+
+.reason-wrap > .row > .col {
+    text-align: center;
+}
+
+.reason-quanity {
+    font-family: var(--font-bold);
+    font-size: 9rem;
+    color: #a0c90d;
+    margin-bottom: 30px;
+}
+
+.reason-desc {
+    letter-spacing: 2px;
+    line-height: 1.5;
+    font-size: 2.4rem;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.faq {
+    height: 300px;
+    background-color: red;
+}
