@@ -285,8 +285,10 @@
         margin-bottom: 30px;
     }
 
-
-
+    /*Faq*/
+    .faq-container {
+        width: 100%;
+    }
 
 
     .col {
