@@ -291,6 +291,15 @@
     }
 
 
+    /*Solution*/
+    .solution {
+        padding: 10px;
+    }
+    
+    .solution-heading {
+        width: 100%;
+    }
+
     .col {
         padding-left: 4px;
         padding-right: 4px;
