@@ -477,8 +477,24 @@
         height: auto;
     }
 
-    .faq-wrap-item .icon {
-       
+    .design-advise {
+        height: 250px;
+        background: none;
+        background-color: #4a9005;
+    }
+
+    .design-advise-rocket {
+        display: none;
+    }
+
+    .design-advise-container {
+        position: static;
+        justify-content: center;
+    }
+
+    .design-advise-title {
+        font-size: 2.3rem;
+        text-align: center;
     }
 
     .col {
@@ -853,6 +869,15 @@
     .design-faq-container .img img{
         width: 460px;
     }
+
+    .design-advise {
+        height: 350px;
+    }
+
+    .design-advise-container {
+        padding-top: 150px;
+    }
+
 }
 /* PC medium resolution > */
 @media (min-width: 1113px) {

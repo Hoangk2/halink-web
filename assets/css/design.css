@@ -583,3 +583,39 @@ em {
     justify-content: center;
     padding: 0;
 }
+
+.design-advise {
+    background: url(/assets/images/bg-3.png) no-repeat center / cover;
+    margin-top: 80px;
+    position: relative;
+    height: 420px;
+}
+
+.design-advise-container {
+    width: 975px;
+    margin: 0 auto;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+.design-advise-rocket {
+    position: absolute;
+    left: 33px;
+    top: -60px;
+} 
+
+.design-advise-title {
+    font-size: 3.5rem;
+    margin-bottom: 38px;
+    color: var(--white);
+    font-family: var(--font-bold);
+}
+
+.design-advise-btn {
+    background-color:  #fe6702;
+}
+
+.design-advise-btn.button::before {
+    background-color: #f68c45;
+}
