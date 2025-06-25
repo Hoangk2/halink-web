@@ -466,8 +466,120 @@ em {
 .design-expense-hotline span {
     color: #f60;
 }
+
 .design-expense-btn {
     margin-top: 50px;
     max-width: 176px;
 }
 
+.design-faq-title {
+    font-size: 3rem;
+    margin-bottom: 50px;
+    color: var(--title-color);
+    font-family: var(--font-bold);
+    text-align: center;
+}
+
+.design-faq-container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.faq-wrap {
+
+}
+
+.faq-wrap-item {
+    height: 66px;
+    border-radius: 14px;
+    background-color: #fff;
+    box-shadow: 0 0 30px rgba(0, 111, 68, .14);
+    padding: 20px 23px;
+    border: none;
+    margin-bottom: 20px;
+    border-left: solid 5px transparent;
+    overflow: hidden;
+}
+
+.faq-item-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq-item-heading h3 {
+    color: #112c03;
+    font-family: var(--font-bold);
+}
+
+.faq-item-heading .icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d4d4d4;
+    transition: all .5s;
+    flex-basis: 1;
+}
+
+.faq-item-heading .icon i {
+    color: #d4d4d4;
+}
+
+.faq-wrap-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 90%;
+
+}
+
+.faq-wrap-item:hover {
+    cursor: pointer;
+}
+
+.faq-wrap-item:hover h3{
+    color: #83c144;
+    text-wrap: wrap;
+}
+
+.faq-wrap-item:hover .icon {
+    background-color: #51991e;
+    transform: rotate(360deg);
+}
+
+.faq-wrap-item p {
+    padding: 0 75px 0 23px;
+    margin: 10px 0 5px;
+    color: #56595f;
+    letter-spacing: 1px;
+    display: none;
+}
+
+.faq-wrap-item:hover p {
+    display: block;
+}
+
+.faq-wrap-item a {
+    color: #83c144;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.design-faq-container .img {
+    display: flex;
+    justify-content: center;
+}
+
+.design-faq-container .img img{
+    aspect-ratio: 16/18;
+}
+
+.design-faq-container .col.c-2 {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}

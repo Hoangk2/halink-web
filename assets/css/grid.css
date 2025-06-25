@@ -461,8 +461,26 @@
         top: -50%;
     }
 
-    .design-expense-item {
+    .design-faq-container .img img{
+        width: 385px;
     }
+
+    .design-expense-hotline {
+        padding: 0 15px;
+    }
+
+    .design-faq-title {
+        font-size: 2.3rem;
+    }
+
+    .faq-wrap-item {
+        height: auto;
+    }
+
+    .faq-wrap-item .icon {
+       
+    }
+
     .col {
         padding-left: 4px;
         padding-right: 4px;
@@ -822,6 +840,18 @@
 
     .design-ad-img  {
         width: 720px;
+    }
+
+    .design-expense {
+        margin-bottom: 50px;
+    }
+
+    .design-faq-title {
+        font-size: 3.6rem;
+    }
+
+    .design-faq-container .img img{
+        width: 460px;
     }
 }
 /* PC medium resolution > */
