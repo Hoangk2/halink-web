@@ -7,6 +7,8 @@
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    width: 1300px;
+    margin: 0 auto;
 }
 
 .header-logo {
@@ -22,7 +24,7 @@
 .header-wrap {
     display: flex;
     align-items: center;
-    float: right;
+    justify-self: flex-end;
 }
 
 .header-nav {
@@ -41,7 +43,7 @@
     position: absolute;
     width: 0;
     height: 3px;
-    bottom: 2px;
+    bottom: 0px;
     left: 0;
     background-color: #4f9a10;
     transition: width 0.2s ease;

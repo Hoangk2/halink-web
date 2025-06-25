@@ -20,6 +20,7 @@
     --font-bold: "UTM Avo Bold";
     --primary-color: #90c74c;
     --text-color: #47771f;
+    --title-color: #4a9005;
     --text-footer: #8a92a2;
     --text-sub-color: #519d12;
     --button-color: #73cc19;
@@ -27,6 +28,8 @@
     --black: #000;
     --header-homepage-height: 80px;
     --modal-color: #f6f6f6;
+    --primary-design-color: #8fc74a;
+    --design-text-color: #5a5a5a;
 }
 
 * {
@@ -41,6 +44,7 @@ html {
 }
 
 body {
+    line-height: 1.5;
     font-size: 1.6rem;
     overflow-x: hidden;
 }
@@ -62,3 +66,4 @@ a {
     border-radius: 20px;
     font-size: 1.7rem;
 }
+

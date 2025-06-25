@@ -95,13 +95,13 @@
 
 .content {
     background: url(/assets/images/bg_faq.jpg) no-repeat center / cover;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .content-heading.row {
     flex-direction: column;
     position: relative;
-    margin-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .content-heading.row::after {
@@ -110,23 +110,23 @@
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    bottom: -10%;
+    bottom: 0;
     width: 104px;
     height: 2px;
     background-color: var(--text-sub-color);
 }
 .content-heading-title {
     margin-top: 40px;
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-transform: uppercase;
     color: var(--text-sub-color);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     text-align: center;
 
 }
 
 .content-heading-desc {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     line-height: 1.9;
     color:  #4F4F4F;
     letter-spacing: 1.1px;
@@ -260,7 +260,7 @@
     width: 100%;
     height: 100%;
     background-color: var(--white);
-    filter: brightness(50%);
+    filter: brightness(40%);
     background: url(/assets/images/office-halink-2.jpg) no-repeat center / cover;
     z-index: 1;
 }
@@ -269,7 +269,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 70px;
+    top: 50px;
     z-index: 2;
     display: flex;
     flex-direction: column;
@@ -280,7 +280,7 @@
     text-align: center;
     position: relative;
     height: 71px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 .reason-heading::after {
@@ -342,6 +342,7 @@
     position: relative;
     height: 71px;
     margin-top: 70px;
+    margin-bottom: 40px;
 }
 
 .faq-heading-tittle {
@@ -428,7 +429,7 @@
     font-size: 2.5rem;
     text-transform: uppercase;
     color: var(--text-sub-color);
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
@@ -442,7 +443,7 @@
     position: absolute;
     transform: translateX(-50%);
     left: 50%;
-    bottom: -50%;
+    bottom: -40%;
     width: 104px;
     height: 2px;
     background-color: var(--text-sub-color);
@@ -454,6 +455,7 @@
     justify-content: space-between;
     width: 1300px;
     align-items: center;
+    margin-bottom: 70px;
 }
 
 .solution-wrap-icon {
@@ -526,6 +528,7 @@
     font-size: 1.6rem;
     color: var(--text-footer);
     margin-bottom: 30px;
+    letter-spacing: 1px ;
 }
 
 .footer-top-infor {
@@ -626,7 +629,7 @@
     top: 0;
     Left: 2%;
     width: 10%;
-    height: 2px;
+    height: 1px;
     background-color: #34a853;
 }
 
@@ -702,4 +705,8 @@
 
 .footer-site {
     color: var(--white);
+}
+
+.about-list-item.active > * {
+    text-wrap: wrap;
 }
