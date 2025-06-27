@@ -39,6 +39,7 @@
     padding-bottom: 20px;
     margin-bottom: 40px;
     position: relative;
+    max-width: 142px;
 }
 
 .introduce-about-title::after {
@@ -47,7 +48,7 @@
     left: 0;
     bottom: 0;
     background-color: #34A84F;
-    width: 26%;
+    width: 100%;
     height: 2px;
 }
 
@@ -120,3 +121,116 @@
     height: 100%;
 }
 
+
+
+
+
+
+.introduce-service {
+    padding-top: 20px;
+}
+
+.introduce-service-container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.introduce-service-title {
+    font-size: 3rem;
+    color: #465964;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    position: relative;
+    max-width: 300px;
+}
+
+.introduce-service-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #34A84F;
+    width: 45%;
+    height: 2px;
+}
+
+.introduce-service-desc {
+    color: #7a7a7a;
+    letter-spacing: 0.5px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.introduce-service-desc a{
+    color: #5ea329;
+}
+
+.introduce-service em {
+    display: block;
+    font-style: italic; 
+}
+
+.introduce-service strong {
+    font-style:initial;
+    color: #7a7a7a;
+    font-family: var(--font-bold);
+}
+
+.introduce-service-btn {
+    width: 90%;
+    background-color: #34a853;
+    padding: 8px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all .3s;
+    margin-bottom: 20px;
+}
+
+.introduce-service-btn:hover {
+    background-color: #ffaa01;
+    cursor: pointer;
+}
+
+.introduce-service-btn span {
+    font-size: 1.3rem;
+    color: var(--white);
+    font-family: var(--font-bold);
+    flex: 1;
+}
+
+.introduce-service-btn i {
+    position: relative;
+    top: 2px;
+    color: var(--white);
+}
+
+
+.introduce-service-wrap.col {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.introduce-service-img {
+    width: 510px;
+    aspect-ratio: 5/4;
+    margin-top: 30px;
+    align-self: center;
+}
+
+.introduce-service-img > img{
+    width: 100%;
+    height: 100%;
+}
+
+.introduce-service-wrap-list {
+    list-style: inside;
+}
+
+.introduce-service-wrap-list > .item-list {
+    font-size: 1.6rem;
+    letter-spacing: 0.5px;
+    color: #7A7A7A;
+    font-family: var(--font-bold);
+}
