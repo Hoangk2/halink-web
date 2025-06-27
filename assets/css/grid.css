@@ -798,7 +798,30 @@
         margin-top: 30px;
     }
 
+    .introduce-statistical-img {
+        width: 365px;
+    }
 
+    .introduce-statistical-wrap.col {
+        padding: 0 10px;
+    }
+
+    .introduce-statistical-title::after {
+        width: 100%;
+    }
+
+    .introduce-statistical-wrap.col {
+        justify-content: center;
+    }
+
+    .introduce-statistical-title {
+        text-align: center;
+    }
+
+    .introduce-statistical-title {
+        align-self: center;
+        margin-top: 30px;
+    }
 
     .col {
         padding-left: 4px;
@@ -1240,6 +1263,10 @@
         margin-top: 30px;
     }
 
+    .introduce-about-title {
+        font-size: 2.4rem;
+    }
+
     .introduce-about-title::after {
         width: 100%;
     }
@@ -1248,8 +1275,33 @@
         display: flex;
         justify-content: center;
     }
-  
+    
+    .introduce-service-title {
+        font-size: 2.4rem;
+        align-self: center;
+    }
 
+     .introduce-service-title::after {
+        width: 100%;
+    }
+
+    .introduce-experience-title {
+        font-size: 2.4rem;
+        align-self: center;
+    }
+
+    .introduce-experience-title::after {
+        width: 100%;
+    }
+
+    .introduce-statistical-title {
+        align-self: center;
+        font-size: 2.4rem;
+    }
+
+    .introduce-statistical-title::after {
+        width: 100%;
+    }
 }
 /* PC medium resolution > */
 @media (min-width: 1113px) {

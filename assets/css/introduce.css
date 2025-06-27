@@ -381,3 +381,130 @@
     width: 80%;
 }
 
+
+
+.introduce-statistical {
+    padding-top: 20px;
+}
+
+.introduce-statistical-container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.introduce-statistical-title {
+    font-size: 3rem;
+    color: #465964;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    position: relative;
+    max-width: 400px;
+}
+
+.introduce-statistical-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #34A84F;
+    width: 45%;
+    height: 2px;
+}
+
+.introduce-statistical-desc {
+    color: #7a7a7a;
+    letter-spacing: 0.5px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.introduce-statistical-desc a{
+    color: #5ea329;
+}
+
+.introduce-statistical em {
+    display: block;
+    font-style: italic; 
+}
+
+.introduce-statistical-btn {
+    width: 90%;
+    background-color: #34a853;
+    padding: 8px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all .3s;
+    margin-bottom: 20px;
+}
+
+.introduce-statistical-btn:hover {
+    background-color: #ffaa01;
+    cursor: pointer;
+}
+
+.introduce-statistical-btn span {
+    font-size: 1.3rem;
+    color: var(--white);
+    font-family: var(--font-bold);
+    flex: 1;
+}
+
+.introduce-statistical-btn i {
+    position: relative;
+    top: 2px;
+    color: var(--white);
+}
+
+
+.introduce-statistical-wrap.col {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.introduce-statistical-img {
+    width: 510px;
+    aspect-ratio: 5/4;
+    margin-top: 30px;
+    align-self: center;
+}
+
+.introduce-statistical-img > img{
+    width: 100%;
+    height: 100%;
+}
+
+.introduce-statistical-wrap-list > .item-list {
+    font-size: 1.6rem;
+    letter-spacing: 0.5px;
+    color: #7A7A7A;
+    font-family: var(--font-bold);
+    padding: 20px;
+}
+
+.introduce-statistical-wrap-list > .col > .item-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 20px 20px 0;
+}
+
+.introduce-statistical-wrap-list .item-list > .icon > i {
+    color: #34a853;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.introduce-statistical-wrap-list > .col > .item-list > h3 {
+    font-size: 3.4rem;
+    font-family: var(--font-bold);
+    color: var(--black);
+}
+
+.introduce-statistical-wrap-list > .col > .item-list > p {
+    text-wrap: wrap;
+    text-align: center;
+}
