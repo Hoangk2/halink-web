@@ -772,6 +772,34 @@
 
 
 
+
+    .introduce-experience-img {
+        width: 365px;
+    }
+
+    .introduce-experience-wrap.col {
+        padding: 0 10px;
+    }
+
+    .introduce-experience-title::after {
+        width: 100%;
+    }
+
+    .introduce-experience-wrap.col {
+        justify-content: center;
+    }
+
+    .introduce-experience-title {
+        text-align: center;
+    }
+
+    .introduce-experience-title {
+        align-self: center;
+        margin-top: 30px;
+    }
+
+
+
     .col {
         padding-left: 4px;
         padding-right: 4px;
