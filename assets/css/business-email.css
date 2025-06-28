@@ -1,0 +1,223 @@
+.email-price {
+    padding: 30px 0;
+}
+
+.email-price-container {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.email-price-explain h2 {
+    font-size: 3rem;
+    margin: 30px 0 10px;
+    color: #465964;
+}
+
+.email-price-explain p {
+    font-size: 1.6rem;
+    margin: 10px 0;
+    color: #4F4F4F;
+    letter-spacing: 0.5px;
+}
+
+.email-price-explain a {
+    color: #5EA329
+}
+
+.email-price-explain .img {
+    width: 555px;
+    aspect-ratio: 1.85/1;
+}
+
+.email-price-explain .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.email-price-reason h2 {
+    font-size: 3rem;
+    margin: 30px 0 10px;
+    color: #465964;
+    text-align: center;
+}
+
+.email-price-reason p {
+    font-size: 1.6rem;
+    margin: 10px 0;
+    color: #4F4F4F;
+    letter-spacing: 0.5px;
+}
+
+.email-price-reason ul {
+    list-style: inside;
+}
+
+.email-price-reason ul li {
+    color: #4F4F4F;
+}
+
+.email-price-reason .img {
+    width: 410px;
+    aspect-ratio: 5/3;
+}
+
+.email-price-reason .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.email-price-container > h2 {
+    color: #34A853;
+    font-size: 3rem;
+    margin: 30px 0 20px;
+    text-align: center;
+}
+
+.email-price-container > p {
+    font-size: 1.5rem;
+    color: #4F4F4F;
+    text-align: center;
+}
+
+.price-table {
+    margin-top: 30px;
+}
+
+.email-price-table {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0px 2px #34a853;
+    padding: 10px 5px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email-price-table > .title {
+    font-size: 2.4rem;
+    color: #4F4F4F;
+}
+
+.email-price-table > .price {
+    color: #D63D36;
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+.email-price-table > .price > span {
+    font-size: 2.4rem;
+}
+
+.email-price-table > .button {
+    display: block;
+    width: 100%;
+    font-size: 1.6rem;
+    padding: 12px 28px;
+    background-color: #7fca27;
+    color: var(--white);
+    border-radius: 24px;
+    text-align: center;
+    transition: all .4s;
+}
+
+.email-price-table > .button:hover {
+    background-color: #74b830;
+}
+
+.email-price-table > .list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.email-price-table > .list > .item{
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+    color: #4F4F4F;
+    text-align: center;
+}
+
+.email-price-table strong {
+    font-family: var(--font-bold);
+    color: #4F4F4F;
+}
+
+.email-price-table-wrap {
+    margin: 35px 0 10px;
+    text-align: center;
+}
+
+
+.email-price-table-wrap > a > p {
+    color: #5EA329;
+    margin: 10px 0;
+    transition: all .3s;
+}
+
+.email-price-table-wrap > a > p:hover {
+    color: #008000;
+    text-decoration: underline;
+}
+
+.email-price-table-wrap .img img {
+    max-width: 35px;
+    aspect-ratio: 1.85/1;
+}
+
+.email-price-table-wrap .img  img {
+    width: 100%;
+    height: 100%;
+}
+
+.email-price-table.best-seller {
+    position: relative;
+    overflow: hidden;
+}
+
+.email-price-table.best-seller::before {
+    content: "Bán chạy";
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: var(--font-bold);
+    position: absolute;
+    top: 2%;
+    left: 40%;
+    width: 100%;
+    height: 30px;
+    background-color: #f54646;
+    color: var(--white);
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.email-price-vat {
+    margin-top: 20px;
+    font-size: 1.6rem;
+    color: #4F4F4F;
+    align-self: flex-end;
+} 
+
+.email-price-btn {
+    max-width: 175px;
+    margin: 10px 0;
+    background-color: #7fca27;
+    padding: 12px 28px;
+    color: var(--white);
+    font-size: 1.6rem;
+    font-family: var(--font-bold);
+    align-self: center;
+    border-radius: 24px;
+    text-transform: uppercase;
+    transition: all .3s;
+}
+
+.email-price-btn:hover {
+    cursor: pointer;
+    background-color: #74b830;
+}

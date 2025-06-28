@@ -771,8 +771,8 @@
         margin-top: 30px;
     }
 
-    .introduce-experience-img {
-        width: 365px;
+    .introduce-experience-container .row {
+        flex-direction: column-reverse;
     }
 
     .introduce-experience-wrap.col {
@@ -794,6 +794,10 @@
     .introduce-experience-title {
         align-self: center;
         margin-top: 30px;
+    }
+
+    .introduce-experience-img {
+        width: 365px;
     }
 
     .item-list-progress.solution {
@@ -872,8 +876,18 @@
         left: -11px;    
     }
 
+    .email-price-vat {
+        align-self: center;
+        margin-bottom: 10px;
+    }
 
+    .email-price-explain .img {
+        width: 385px;
+    }
 
+    .email-price-reason .img {
+        width: 385px;
+    }
 
 
     .col {
@@ -1363,6 +1377,25 @@
 
     .introduce-history-title::after {
         width: 100%;
+    }
+
+    .introduce-experience-container .row {
+        flex-direction: column-reverse;
+    }
+
+    .email-price-vat {
+        align-self: center;
+        margin-bottom: 10px;
+    }
+
+    .email-price-explain .img,
+    .email-price-reason .img {
+        width: 350px;
+    }
+
+    .email-price-container .img.col {
+        display: flex;
+        align-items: center;
     }
 }
 /* PC medium resolution > */
