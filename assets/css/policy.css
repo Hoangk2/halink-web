@@ -1,0 +1,46 @@
+.policy-content {
+    padding: 20px;
+}
+
+.policy-content-container {
+    width: 1200px;
+}
+
+.policy-content-container h2 {
+    font-size: 3rem;
+    margin: 20px 0 10px;
+    color: #465964;
+    font-family: var(--font-bold);
+}
+
+.policy-content-container p,
+.policy-content-container h3 {
+    font-size: 1.6rem;
+    margin: 10px 0;
+    letter-spacing: 0.5px;
+    color: #4F4F4F;
+}
+
+.policy-content-container h3{
+    font-family: var(--font-bold);
+}
+
+.policy-content-container em {
+    font-style: italic;
+    color: #4F4F4F;
+}
+
+.policy-content-container strong {
+    font-family: var(--font-bold);
+    color: #4F4F4F;
+}
+
+.policy-ratings {
+    display: flex;
+    align-items: center;
+}
+
+.star-ratings {
+    display: flex;
+    margin-right: 5px;
+}
