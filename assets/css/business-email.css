@@ -267,7 +267,6 @@
     width: 1200px;
     padding: 30px 0;
     margin: 0 auto;
-    overflow-x: scroll;
 }
 
 .email-specificationSv-title {
@@ -314,4 +313,71 @@ tbody td {
 
 table i {
     color: #1eba5c;
+}
+
+.email-faq {
+    padding: 30px 0;
+}
+
+.email-faq-container {
+    width: 1200px;
+}
+
+.email-faq-title {
+    color: #34A853;
+    font-size: 3rem;
+    margin-bottom: 30px;
+    font-family: var(--font-bold);
+    text-align: center;
+}
+
+.email-faq-item {
+    border: 1px solid #dddddd;
+    margin-bottom: 10px;
+}
+
+.email-faq-item:hover {
+    cursor: pointer;
+}
+
+.email-faq-item-heading {
+    font-size: 1.8rem;
+    display: flex;
+    padding: 10px 15px;
+}
+
+.email-faq-item-heading h3 {
+    color: #465964;
+    margin-left: 10px;
+    font-family: var(--font-bold);
+}
+
+.email-faq-item .email-faq-item-list {
+    list-style: inside;
+    height: 0;
+    transition: all .3s;
+    overflow: hidden;
+    padding: 0 15px;
+}
+
+.email-faq-item:hover .email-faq-item-list {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+.email-faq-item .email-faq-item-list li {
+    font-size: 1.5rem;
+    color: #4E4B48;
+    letter-spacing: 0.7px;
+}
+
+.email-faq-item-heading i {
+    color: #465964;
+    transition: all .3s;
+}
+
+.email-faq-item:hover i {
+    transform: rotate(90deg);
 }

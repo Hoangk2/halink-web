@@ -888,7 +888,13 @@
     .email-price-reason .img {
         width: 385px;
     }
+    .email-specificationSv-container {
+        overflow: scroll;
+    }
 
+    table {
+        width: 1200px;
+    }
 
     .col {
         padding-left: 4px;
@@ -1396,6 +1402,14 @@
     .email-price-container .img.col {
         display: flex;
         align-items: center;
+    }
+
+    .email-banner-container.container, 
+    .email-price-container.container, 
+    .email-highlightsService-container.container, 
+    .email-specificationSv-container.container, 
+    .email-faq-container.container {
+        padding: 0 30px;
     }
 }
 /* PC medium resolution > */
