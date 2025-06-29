@@ -146,8 +146,9 @@ body {
     margin-left: 4px;  
 }
 
-.nav-list-item:hover > .sub-header-list {
-    transform: translateX(-20px);
+.nav-list-item.active:hover > .sub-header-list {
+    transform: translateX(0);
+    left: 0;
     opacity: 1;
     visibility: visible;
 }
@@ -156,10 +157,10 @@ body {
     visibility: none;
     position: absolute;
     top: var(--sub-header-height);
-    left: 0;
+    left: 20px;
     min-width: 270px;
     background-color: #f6f6f6;
-    transition: transform 0.2s ease, opacity 0.2s ease;
+    transition: all 0.2s ease;
     opacity: 0;
     z-index: 1;
 }
