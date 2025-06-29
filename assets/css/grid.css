@@ -361,7 +361,7 @@
     }
 
     .footer-container {
-        padding: 20px;
+        padding: 10px;
     }
 
     .footer-about-title::after {
@@ -1247,6 +1247,10 @@
         padding: 0 30px;
     }
 
+    .header .grid.wide {
+        padding: 0;
+    }
+    
     .header-container.row  {
         width: 100%;
         flex-direction: row;
@@ -1565,6 +1569,14 @@
     .content-contact-payments .title {
         font-size: 1.4rem;
         letter-spacing: 1.3px;
+    }
+
+    .footer-bottom-img a {
+        width: 165px;
+    }
+
+    .footer-bottom {
+        padding: 0 30px;
     }
 }
 /* PC medium resolution > */
