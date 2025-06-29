@@ -1,0 +1,126 @@
+.report-content {
+    padding-top: 20px;
+}
+
+.report-heading-container,
+.content-contact-container {
+    width: 1200px;
+}
+
+.foreword.row {
+    padding-top: 30px;
+    position: relative;
+}
+
+.foreword.row::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background-color: #e1e2eb;
+}
+
+.report-content-foreword {
+    text-align: center;
+    font-size: 1.6rem;
+    color: #4F4F4F;
+    letter-spacing: 0.5px;
+    margin: 10px 0;
+}
+
+.report-content-wrap {
+    position: relative;
+    margin-top: 106px;
+    background-color: #f7f7f7;
+}
+
+.report-content-wrap::after {
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: -30%;
+    left: 0;
+    width: 150%;
+    height: 100%;
+    transform: rotate(3deg);
+    background-color: #f7f7f7;
+    z-index: -1;
+}
+
+.content-contact-container {
+    background-color: transparent;
+    position: relative;
+    top: -60px;
+}
+
+.content-contact.col {
+    padding-top: 30px;
+}
+
+.report-content-contact {
+    padding: 0 40px;
+}
+
+.content-contact.col {
+    padding: 40px;
+}
+
+.report-content-contact {
+    padding-top: 30px; 
+}
+
+.report-content-contact h2 {
+    font-size: 2rem;
+    margin: 20px 0 10px;
+    color: #465964;
+}
+
+.report-content-contact p {
+    font-size: 1.6rem;
+    color: #4F4F4F;
+    margin: 10px 0;
+    letter-spacing: 1px;
+}
+
+.content-contact-wrap {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-contact-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: var(--white);
+}
+
+.content-contact-item .img {
+    padding: 16px 16px 16px 0;
+}
+
+.content-contact-item .img img {
+    width: 65px;
+    height: 65px;
+}
+
+.contact-item-wrap h3{
+    font-size: 1.8rem;
+    margin: 10px 0;
+    color: #465964;
+    font-family: var(--font-bold);
+}
+
+.contact-item-wrap p {
+    font-size: 1.6rem;
+    margin: 10px 0;
+    color: #4F4F4F;
+}
+
+.contact-item-wrap strong {
+    font-family: var(--font-bold);
+}

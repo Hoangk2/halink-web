@@ -894,6 +894,30 @@
 
     table {
         width: 1200px;
+    }   
+
+    .content-contact-container {
+        top: -110px;
+    }
+
+    .content-contact.col {
+        padding: 30px 5px 0;
+    }
+
+    .report-content-contact {
+        padding: 10px;
+    }
+
+    .report-content-wrap {
+        height: 1471px;
+    }
+
+    .report-content-wrap::after {
+        left: -10%;
+    }
+
+    .report-content-contact p {
+        font-size: 1.4rem;
     }
 
     .col {
@@ -1410,6 +1434,34 @@
     .email-specificationSv-container.container, 
     .email-faq-container.container {
         padding: 0 30px;
+    }
+
+    .content-contact-container {
+        top: -100px;
+    }
+
+    .content-contact.col {
+        padding-bottom: 0;
+    }
+
+    .form-wrap.col {
+        padding: 0 40px 40px;
+    }
+
+    .report-content-contact {
+        padding: 10px;
+    }
+
+    .report-content-wrap::after {
+        left: -10%;
+    }
+
+    .report-content-contact p {
+        font-size: 1.4rem;
+    }
+
+    .report-content-wrap {
+        height: 1461px;
     }
 }
 /* PC medium resolution > */
