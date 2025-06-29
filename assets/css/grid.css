@@ -1264,6 +1264,81 @@
         font-size: 1rem;;
     }
 
+    .slide .slide-desc {
+        font-size: 1.6rem;
+        margin: 10px 0 40px;
+        letter-spacing: 0.5px;
+    }
+
+    .slogan {
+        width: 570px;
+        margin: 30px auto 40px;
+        padding: 0 30px;
+    }
+
+    .slogan .title {
+        font-size: 2.2rem;
+    }
+
+    .slogan em {
+        font-size: 1.5rem;
+        line-height: 1.5;
+        letter-spacing: 1px;
+    }
+
+    .content {
+        margin-bottom: 50px;
+    }
+
+    .content .grid.wide {
+        width: 720px;
+    }
+
+    .content-heading-desc {
+        font-size: 1.5rem;
+    }
+
+    .content-service .service-item,
+    .content-service .service-item.right {
+        left: 0;
+    }
+
+    .content .content-wrap .content-img {
+        width: 600px;
+    }
+
+    .slogan::after {
+        bottom: -5%;
+        width: 15%;
+    }
+
+    .reason-container {
+        width: 800px;
+        padding: 0 15px;
+    }
+
+    .reason .reason-wrap {
+        width: 100%;
+    }
+
+    .reason-wrap h3 {
+        font-size: 8rem;
+    }
+
+    .reason-wrap p {
+        font-size: 2rem;
+    }
+
+    .faq-container {
+        width: 740px;
+        padding: 0 10px;
+    }
+
+    .faq-heading::after {
+        width: 20%;
+        height: 2.5px;
+    }
+
     .btn {
         font-size: 1.1rem;
         padding: 3px 6px;
