@@ -331,10 +331,10 @@ em {
 
 .service-wrap-item > .item-desc > span {
     transition: all .5s ease-out;
+    display: inline-block;
 }
 
 .service-wrap-item:hover span {
-    display: inline-block;
     color: #7cc429;
     transform: translateX(20px);
 }
