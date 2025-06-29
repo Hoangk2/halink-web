@@ -1,0 +1,205 @@
+.contact-content {
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+.contact-heading-container .foreword.row {
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-heading-title {
+    font-size: 3rem;
+    margin: 20px 10px 0;
+    color: #4F4F4F;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    padding-bottom: 30px;
+    letter-spacing: 0.5px;
+}
+
+.contact-heading-container,
+.content-contact-container {
+    width: 1200px;
+}
+
+.foreword.row {
+    padding-top: 30px;
+    position: relative;
+}
+
+.contact-heading-title::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3.5px;
+    background-color: #e1e2eb;
+}
+
+.contact-content-foreword {
+    font-size: 1.6rem;
+    color: #4F4F4F;
+    letter-spacing: 0.5px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.contact-content-wrap {
+    position: relative;
+    margin-top: 106px;
+    background-color: #f7f7f7;
+}
+
+.contact-content-wrap::after {
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: -30%;
+    left: 0;
+    width: 150%;
+    height: 100%;
+    transform: rotate(-3deg);
+    background-color: #f7f7f7;
+    z-index: -1;
+}
+
+.content-contact-container {
+    background-color: transparent;
+    position: relative;
+    top: -60px;
+}
+
+.content-contact.col {
+    padding-top: 30px;
+}
+
+.contact-content-contact {
+    padding: 60px 10px;
+}
+
+.content-contact.col {
+    padding: 0;
+}   
+
+.contact-content-contact h2 {
+    font-size: 2.2rem;
+    margin: 20px 0 10px;
+    color: #465964;
+}
+
+.contact-content-contact p {
+    font-size: 1.6rem;
+    color: #4F4F4F;
+    margin: 10px 0;
+    letter-spacing: 1px;
+}
+
+.content-contact-wrap {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px 10px 0;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-contact-item:hover h4,
+.content-contact-item:hover p {
+    text-decoration: underline;
+}
+
+.content-contact-item .icon i{
+    font-size: 1.2rem;
+    color: #4f525f;
+}
+
+.contact-item-wrap {
+    padding: 10px 20px 10px 0;
+}
+
+.contact-item-wrap h4 {
+    font-size: 1.8rem;
+    margin: 10px 0;
+    color: #465964;
+}
+
+.contact-item-wrap p {
+    font-size: 1.6rem;
+    margin: 10px 0;
+    color: #4F4F4F;
+}
+
+.form-btn {
+    margin-bottom: 40px;
+}
+
+.form-wrap {
+    padding-top: 30px;
+    position: relative;
+    top: -10px;
+}
+
+.form-wrap.item {
+    border-top: 1px solid #ebebf5;
+}
+
+.form-wrap-item h3 {
+    font-size: 1.6rem;
+    color: #465964;
+    font-family: var(--font-bold);
+}
+
+.form-wrap-item {
+    padding: 20px 0;
+    color: #4F4F4F;
+}
+
+.form-wrap-item i {
+    font-size: 2.5rem;
+}
+
+.form-wrap-item span {
+    letter-spacing: 1px;
+    margin-left: 10px;
+}
+
+.content-contact-payments {
+    padding: 10px;
+}
+
+.content-contact-payments .title {
+    font-weight: 400;
+    color: #963484;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.content-contact-payments .logo {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    position: relative;
+    background-color: var(--white);
+    margin-bottom: 30px;
+}
+
+.content-contact-payments .logo img {
+    max-height: 80%;
+    max-width: 82%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}

@@ -920,6 +920,65 @@
         font-size: 1.4rem;
     }
 
+    .contact-content {
+        height: auto;
+    }
+
+    .contact-content .contact-heading-container {
+        height: auto;
+    }
+
+    .content-contact-container .content-contact {
+        padding-top: 0;
+    }
+
+    .contact-content-contact {
+        padding: 0 10px;
+    }
+
+    .contact-content-contact h2 {
+        margin-top: 0;
+    }
+
+    .contact-content-wrap::after {
+        left: -10%;
+    }
+
+    .contact-content-form label {
+        font-size: 1.4rem;
+    }
+
+    .contact-content-form > .form-wrap span {
+        font-size: 1.4rem;
+    }
+
+    .contact-content-form > .form-wrap i {
+        font-size: 2.3rem;
+    }
+
+    .contact-content-contact p {
+        font-size: 1.4rem;
+    }
+
+    .contact-content-wrap {
+        top: 100px;
+        margin-top: 0;
+    }
+
+    .content-contact-container .form-wrap.col {
+        top: -50px;
+        padding: 0 10px;
+    }
+
+    .contact-content .content-contact-container {
+        position: static;
+    }
+
+    .content-contact-payments {
+        padding: 20px 10px 0;
+        margin-bottom: 50px;
+    }
+
     .col {
         padding-left: 4px;
         padding-right: 4px;
@@ -1462,6 +1521,50 @@
 
     .report-content-wrap {
         height: 1461px;
+    }
+
+    .contact-content {
+        height: auto;
+    }
+
+    .contact-content .contact-heading-container {
+        height: auto;
+    }
+
+    .contact-content-contact {
+        padding: 0 30px;
+    }
+
+    .contact-content-wrap::after {
+        left: -10%;
+    }
+
+    .contact-content-contact p {
+        font-size: 1.4rem;
+    }
+
+    .contact-content-wrap {
+        top: 100px;
+        margin-top: 0;
+    }
+
+    .content-contact-container .form-wrap.col {
+        top: -50px;
+        padding: 0 30px;
+    }
+
+    .contact-content .content-contact-container {
+        position: static;
+    }
+
+    .content-contact-payments {
+        padding: 30px 30px 0;
+        margin-bottom: 50px;
+    }
+
+    .content-contact-payments .title {
+        font-size: 1.4rem;
+        letter-spacing: 1.3px;
     }
 }
 /* PC medium resolution > */
