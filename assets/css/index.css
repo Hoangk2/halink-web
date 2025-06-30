@@ -94,7 +94,7 @@
 
 
 .content {
-    background: url(/assets/images/bg_faq.jpg) no-repeat center / cover;
+    background: url(../images/bg_faq.jpg) no-repeat center / cover;
     margin-top: 70px;
 }
 
@@ -258,7 +258,7 @@
     height: 100%;
     background-color: var(--white);
     filter: brightness(40%);
-    background: url(/assets/images/office-halink-2.jpg) no-repeat center / cover;
+    background: url(../images/office-halink-2.jpg) no-repeat center / cover;
     z-index: 1;
 }
 
@@ -321,7 +321,7 @@
 }
 
 .faq {
-    background: url(/assets/images/bg_faq.jpg) no-repeat center / cover;
+    background: url(../images/bg_faq.jpg) no-repeat center / cover;
     height: auto;
 }
 
