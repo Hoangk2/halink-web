@@ -84,7 +84,7 @@ em {
 }
 
 .module-hard {
-    background: url(/assets/images/background\ module.png) no-repeat center / cover;
+    background: url(./assets/images/background\ module.png) no-repeat center / cover;
     height: auto;
     padding-top: 50px;
     padding-bottom: 90px;
@@ -207,7 +207,7 @@ em {
 }
 
 .design-solution {
-    background: url(/assets/images/bg3_group.png) no-repeat center / cover;
+    background: url(./assets/images/bg3_group.png) no-repeat center / cover;
 }
 
 .design-solution-wrap .row {
@@ -255,7 +255,7 @@ em {
 }
 
 .design-service {
-    background: url(/assets/images/bg_group_6.jpg) no-repeat center / cover;
+    background: url(./assets/images/bg_group_6.jpg) no-repeat center / cover;
 }
 
 .design-service-container {
@@ -428,7 +428,7 @@ em {
 }
 
 .design-expense {
-    background: url(/assets/images/bg_group_4.png) no-repeat center / cover;
+    background: url(./assets/images/bg_group_4.png) no-repeat center / cover;
     padding: 68px 0 55px;
     display: flex;
     flex-direction: column;
@@ -598,7 +598,7 @@ em {
 }
 
 .design-advise {
-    background: url(/assets/images/bg-3.png) no-repeat center / cover;
+    background: url(./assets/images/bg-3.png) no-repeat center / cover;
     margin-top: 80px;
     position: relative;
     height: 420px;

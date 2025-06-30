@@ -1,6 +1,6 @@
 .slide {
     width: 100vw;
-    background: url(/assets/images/web-khoi-nghiep-0.jpeg) no-repeat center / cover;
+    background: url(./assets/images/web-khoi-nghiep-0.jpeg) no-repeat center / cover;
     aspect-ratio: 22/9;
     min-height: 530px;
     position: relative;
@@ -94,7 +94,7 @@
 
 
 .content {
-    background: url(/assets/images/bg_faq.jpg) no-repeat center / cover;
+    background: url(./assets/images/bg_faq.jpg) no-repeat center / cover;
     margin-top: 70px;
 }
 
@@ -258,7 +258,7 @@
     height: 100%;
     background-color: var(--white);
     filter: brightness(40%);
-    background: url(/assets/images/office-halink-2.jpg) no-repeat center / cover;
+    background: url(./assets/images/office-halink-2.jpg) no-repeat center / cover;
     z-index: 1;
 }
 
@@ -321,7 +321,7 @@
 }
 
 .faq {
-    background: url(/assets/images/bg_faq.jpg) no-repeat center / cover;
+    background: url(./assets/images/bg_faq.jpg) no-repeat center / cover;
     height: auto;
 }
 
