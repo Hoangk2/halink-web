@@ -2,14 +2,14 @@
 
 @font-face {
   font-family: "UTM Avo";
-  src: url("/assets/fonts/UTM-Avo/UTM-Avo/UTM\ Avo.ttf") format("truetype");
+  src: url("../fonts/UTM-Avo/UTM-Avo/UTM\ Avo.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "UTM Avo Bold";
-  src: url("/assets/fonts/UTM-Avo/UTM-Avo/UTM\ AvoBold.ttf") format("truetype");
+  src: url("../fonts/UTM-Avo/UTM-Avo/UTM\ AvoBold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -68,3 +68,14 @@ a {
     font-size: 1.7rem;
 }
 
+@media (max-width: 739px) {
+    :root {
+        --header-homepage-height: 50px;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+     :root {
+        --header-homepage-height: 60px;
+    }
+}

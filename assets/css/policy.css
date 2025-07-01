@@ -3,7 +3,7 @@
 }
 
 .policy-content-container {
-    width: 1200px;
+    max-width: 1200px;
 }
 
 .policy-content-container h2 {

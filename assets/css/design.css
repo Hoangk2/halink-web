@@ -99,7 +99,7 @@ em {
 }
 
 .module-container {
-    width: 1300px;
+    max-width: 1300px;
     padding: 15px;
     margin: 0 auto;
 }
@@ -259,7 +259,7 @@ em {
 }
 
 .design-service-container {
-    width: 1300px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 50px 15px;
     display: flex;
@@ -353,7 +353,7 @@ em {
 
 .design-service-container > .row {
     margin-bottom: 50px ;
-    width: 1300px;
+    max-width: 1300px;
 }
 
 .design-ad {
@@ -370,7 +370,7 @@ em {
 }
 
 .design-ad-container {
-    width: 1300px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -444,7 +444,7 @@ em {
 }
 
 .design-expense-container {
-    width: 1300px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -496,7 +496,7 @@ em {
 }
 
 .design-faq-container {
-    width: 1300px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -605,7 +605,7 @@ em {
 }
 
 .design-advise-container {
-    width: 975px;
+    max-width: 975px;
     margin: 0 auto;
     padding-top: 150px;
     display: flex;
@@ -631,4 +631,213 @@ em {
 
 .design-advise-btn.button::before {
     background-color: #f68c45;
+}
+
+@media (max-width: 739px) {
+    .container { 
+        max-width: 100%;
+        margin: 0 auto;
+        height: 100%;
+        padding: 0 10px;
+    }
+
+    .slideshow {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .module-container {
+        width: 100%;
+        padding: 10px 10px;
+    }
+
+    .module-list-item {
+        min-height: 396px;
+    }
+
+    .module-list .col {
+        padding:  0 10px;
+    }
+
+    .design-solution-title {
+        font-size: 2.2rem;
+        margin-bottom: 0;
+    }
+
+    .design-solution-wrap i {
+        top: 16px;
+    }
+
+    .design-solution-wrap p {
+        line-height: 1.4;
+    }
+
+    .design-solution-wrap .img {
+        width: 100%;
+    }
+
+    .service-wrap-item > .item-icon {
+        display: none;
+    }
+
+    .service-wrap-item > .item-img {
+        display: none;
+    }
+
+    .service-wrap-item > .item-desc {
+        flex: 1;
+        max-width: 100%;
+        padding: 10px;
+        font-size: 1.5rem;
+    }
+
+    .service-wrap-item > .item-desc > span {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    .design-service-container > .row {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .design-service-btn.button {
+        margin-bottom: 50px;
+    }
+
+    .design-ad .box-ad {
+        min-height: 232px;
+    }
+
+    .design-ad .box-ad::before {
+        top: -50%;
+    }
+
+    .design-faq-container .img img{
+        width: 385px;
+    }
+
+    .design-expense-hotline {
+        padding: 0 15px;
+    }
+
+    .design-faq-title {
+        font-size: 2.3rem;
+    }
+
+    .faq-wrap-item {
+        height: auto;
+    }
+
+    .design-advise {
+        height: 250px;
+        background: none;
+        background-color: #4a9005;
+    }
+
+    .design-advise-rocket {
+        display: none;
+    }
+
+    .design-advise-container {
+        position: static;
+        justify-content: center;
+    }
+
+    .design-advise-title {
+        font-size: 2.3rem;
+        text-align: center;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .container {
+        max-width: 100%;
+        margin: 0 auto;
+        height: 100%;
+        padding: 0 30px;
+    }
+    
+    .slideshow {
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .slideshow-img {
+        float: left;
+        width: 150px;
+        height: auto;
+        margin-right: 15px;
+        margin-bottom: 10px;
+    }
+
+    .slideshow-title,
+    .slideshow-list-item:nth-child(1),
+    .slideshow-list-item:nth-child(2),
+    .slideshow-list-item:nth-child(3) {
+        max-width: 370px;
+        text-wrap: wrap;
+    }
+
+    .button {
+        font-size: 1.3rem;
+    }
+
+    .module-container {
+        width: 100%;
+        padding: 10px 30px;
+    }
+
+    .module-list-item {
+        min-height: 318px;
+    }
+
+    .design-solution-wrap i {
+        top: 15px;
+    }
+
+    .design-solution-wrap > .row.grid.wide {
+        padding: 0;
+    }
+
+    .design-solution-wrap .img {
+        width: 100%;
+    }
+
+
+    .service-wrap-item.right {
+        flex-direction: row;
+    }
+
+    .service-wrap-item.right > .item-icon.right {
+        transform: rotate(-90deg);
+    }
+
+    .design-service-container > .row {
+        width: 100%;
+    }
+
+    .design-ad-img  {
+        width: 720px;
+    }
+
+    .design-expense {
+        margin-bottom: 50px;
+    }
+
+    .design-faq-title {
+        font-size: 3.6rem;
+    }
+
+    .design-faq-container .img img{
+        width: 460px;
+    }
+
+    .design-advise {
+        height: 350px;
+    }
+
+    .design-advise-container {
+        padding-top: 150px;
+    }
 }

@@ -60,7 +60,7 @@
 }
 
 .slogan {
-    width: 930px;
+    max-width: 930px;
     margin: 100px auto 80px;
     text-align: center;
     position: relative;
@@ -326,7 +326,7 @@
 }
 
 .faq-container {
-    width: 1270px;
+    max-width: 1270px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -489,4 +489,159 @@
     cursor: pointer;
 }
 
+@media (max-width: 739px) {
+    .container { 
+        max-width: 100%;
+        margin: 0 auto;
+        height: 100%;
+        padding: 0 10px;
+    }
 
+  
+    .slide-wrap {
+        top: 15%;
+        left: 0;
+        padding: 0 10px;
+    }
+
+    .slide-title,
+    .slide-btn {
+        text-align: center;
+    }
+
+    .slide-title {
+        font-size: 2.9rem;
+        margin-bottom: 22px;
+    }
+    .slide-btn {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .slide-desc {
+        margin-top: 20px;
+        font-size: 1.6rem;
+    }
+
+    
+    .slogan {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .slogan-title {
+        margin-bottom: 22px;
+        line-height: 1.3;
+        font-size: 2.2rem;
+    }
+
+    .slogan-desc {
+        line-height: normal;
+        font-size: 1.4rem;
+    }
+
+    .slogan::after {
+        bottom: -5%;
+    }
+
+   
+    .content {
+        padding: 0 15px;
+    }
+    .content-heading.row {
+        padding: 0 10px;
+    }
+
+    .content-service {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .content-heading-desc {
+        font-size: 1.4rem;
+    }
+
+    .service-item.right,
+    .service-item {
+        flex-direction: column;
+        position: static;
+        padding: 10px;
+        min-width: 100%;
+    }
+    
+    .item-img,
+    .item-img.right {
+        position: static;
+        transform : translateX(0);
+        order: 1;
+        align-self: center;
+    }
+
+    .item-desc {
+        order: 2;
+    }
+
+    .service-item {
+        padding: 15px 10px;
+        height: auto;
+        width: 400px;
+        justify-self: center;
+    }
+   
+    .service-item h3 {
+        align-self: self-start;
+    }
+
+    .service-item p {
+        text-align: left;
+    }
+
+    .service-item.right p {
+        align-self: self-start;
+    }
+
+    
+    .reason {
+        height: 826px;
+        padding: 0 15px;
+    }
+
+    .reason-quanity {
+        line-height: normal;
+        margin-bottom: 0;
+    }
+    .reason-container {
+        top: 40px;
+        width: 100%;
+        padding: 10px;
+        max-height: 651px;
+    }
+    
+    .reason-heading::after {
+        bottom: -20px;
+        width: 90px;
+    }
+
+    .reason-wrap {
+        width: 100%;
+    }
+
+    .reason-wrap > .row > .col {
+        margin-bottom: 30px;
+    }
+
+  
+    .faq-container {
+        width: 100%;
+    }
+
+
+   
+    .solution {
+        padding: 10px;
+    }
+
+    .solution-heading {
+        width: 100%;
+    }
+}
