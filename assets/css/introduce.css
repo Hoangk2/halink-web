@@ -561,6 +561,7 @@
 }
 
 .introduce-history-wrap-item {
+    width: 100%;
     background: white;
     padding: 10px;
     word-break: break-word;

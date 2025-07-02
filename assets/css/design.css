@@ -36,6 +36,10 @@ em {
     font-style: italic;
 }
 
+.header {
+    padding: 0;
+}
+
 .slideshow {
     max-width: 1270px;
     padding-top: 30px;
@@ -650,6 +654,32 @@ em {
     .slideshow {
         width: 100%;
         padding: 0 10px;
+    }
+
+    .slideshow-wrap.col {
+        display: flex;
+        flex-direction: column;
+    } 
+
+    .slideshow .img.col {
+        display: none;
+    }
+
+    .slideshow-title {
+        font-size: 2.4rem;
+    }
+
+    .slideshow p {
+        font-size: 1.6rem;
+    }
+
+    .slideshow-button.button {
+        font-size: 1.3rem;
+        align-self: center;
+    }
+
+    .module-hard-title {
+        font-size: 2.5rem;
     }
 
     .module-container {
