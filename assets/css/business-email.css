@@ -4,6 +4,8 @@
 
 .email-price-container {
     max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
     display: flex;
     flex-direction: column;
 }
@@ -27,7 +29,6 @@
 
 .email-price-explain .img {
     width: 555px;
-    aspect-ratio: 1.85/1;
 }
 
 .email-price-explain .img img {
@@ -59,7 +60,6 @@
 
 .email-price-reason .img {
     width: 410px;
-    aspect-ratio: 5/3;
 }
 
 .email-price-reason .img img {
@@ -395,6 +395,12 @@ table i {
         margin-bottom: 10px;
     }
 
+    .email-price-explain .img.col,
+    .email-price-reason .img.col {
+        display: flex;
+        justify-content: center;
+    }
+    
     .email-price-explain .img {
         width: 385px;
     }
@@ -412,7 +418,7 @@ table i {
 
 }
 
-@media (min-width: 740px) and(max-width: 1023px) {
+@media (min-width: 740px) and (max-width: 1023px) {
     .container {
         max-width: 100%;
         margin: 0 auto;
@@ -427,12 +433,13 @@ table i {
 
     .email-price-explain .img,
     .email-price-reason .img {
-        width: 350px;
+        width: 300px;
     }
 
     .email-price-container .img.col {
         display: flex;
         align-items: center;
+        justify-content: center;
     }
 
     .email-banner-container.container, 
@@ -441,5 +448,16 @@ table i {
     .email-specificationSv-container.container, 
     .email-faq-container.container {
         padding: 0 30px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .content-contact-container {
+        width: 914px;
+    }
+
+     .email-price-explain .img,
+    .email-price-reason .img {
+        width: 432px;
     }
 }

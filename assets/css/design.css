@@ -37,9 +37,11 @@ em {
 }
 
 .slideshow {
-    width: 1270px;
+    max-width: 1270px;
     padding-top: 30px;
-    margin: 0 auto;     
+    margin: 0 auto; 
+    padding-left: 30px;
+    padding-right: 30px;    
 }
 
 .slideshow-wrap {
@@ -211,7 +213,7 @@ em {
 }
 
 .design-solution-wrap .row {
-    width: 1300px;
+    max-width: 1200px;
 }
 
 .design-solution-title {
@@ -244,7 +246,7 @@ em {
 }
 
 .design-solution-wrap .img {
-    width: 622px;
+    width: 95%;
     aspect-ratio: 1.11/1;
     padding: 20px; 
 }
@@ -265,6 +267,10 @@ em {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.design-service .row {
+    width: 100%;
 }
 
 .design-service-title {
@@ -801,7 +807,7 @@ em {
     }
 
     .design-solution-wrap .img {
-        width: 100%;
+        width: 70%;
     }
 
 

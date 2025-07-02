@@ -32,7 +32,8 @@
 .slide-btn {
     font-size: 1.6rem;
     padding: 14px 45px;
-    background-color: var(--button-color);
+    background-image: linear-gradient(220deg, #86c14a 0%, #6ad004 79%);
+    box-shadow: 0 10px 25px rgb(98 161 36 / 41%);
     border-radius: 30px;
     color: var(--white);
     text-transform: uppercase;
@@ -97,6 +98,10 @@
     background: url(../images/bg_faq.jpg) no-repeat center / cover;
     margin-top: 70px;
 }
+.content .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 .content-heading.row {
     flex-direction: column;
@@ -139,6 +144,10 @@
     justify-content: center;
 }
 
+.content-wrap.wide {
+    margin: 0 auto;
+}
+
 .content-img {
     width: 364px;
     aspect-ratio: 5/4;
@@ -151,14 +160,14 @@
 
 .service-item {
     display: flex;
+    flex-direction: column;
     padding: 15px 50px 15px 10px;
     box-shadow: -1px 1px 10px 2px #ede8e8;
     border-radius: 16px;
     position: relative;
     background-color: var(--white);
     margin-bottom: 40px;
-    min-width: 433px;
-    height: 153px;
+    min-height: 153px;
     transition: transform 0.6s ease;
 }
 
@@ -197,6 +206,7 @@
     color: var(--text-sub-color);
     margin: 10px 0;
     align-self: self-end;
+    text-align: end;
 }
 
 .service-item p {
@@ -210,11 +220,11 @@
 }
 
 .service-item:nth-child(2) {
-    left: -60px;
+    left: -10px;
 }
 
 .service-item:not(:nth-child(2)) {
-    left: 5px;
+    left: 50px;
 }
 
 .service-item.right {
@@ -588,8 +598,10 @@
         justify-self: center;
     }
    
-    .service-item h3 {
-        align-self: self-start;
+    .service-item h3,
+    .service-item.right h3 {
+        align-self: center;
+        text-align: center;
     }
 
     .service-item p {
@@ -645,3 +657,109 @@
         width: 100%;
     }
 }
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .wide {
+        margin: 0 auto;
+    }
+
+    .slide .slide-desc {
+        font-size: 1.6rem;
+        margin: 10px 0 40px;
+        letter-spacing: 0.5px;
+    }
+
+    .slogan {
+        width: 570px;
+        margin: 30px auto 40px;
+        padding: 0 30px;
+    }
+
+    .slogan .title {
+        font-size: 2.2rem;
+    }
+
+    .slogan em {
+        font-size: 1.5rem;
+        line-height: 1.5;
+        letter-spacing: 1px;
+    }
+
+    .content {
+        margin-bottom: 50px;
+    }
+
+    .content .grid.wide {
+        width: 720px;
+    }
+
+    .content-heading-desc {
+        font-size: 1.5rem;
+    }
+
+    .content-service .service-item,
+    .content-service .service-item.right {
+        left: 0;
+    }
+    .content-wrap.wide {
+        padding: 0 15px;
+    }
+    .content .content-wrap .content-img {
+        width: 100%;
+    }
+
+    .slogan::after {
+        bottom: -5%;
+        width: 15%;
+    }
+
+    .reason-container {
+        max-width: 800px;
+        padding: 0 15px;
+    }
+
+    .reason .reason-wrap {
+        width: 739px;
+    }
+
+    .reason-wrap h3 {
+        font-size: 8rem;
+    }
+
+    .reason-wrap p {
+        font-size: 2rem;
+    }
+
+    .faq-container {
+        max-width: 740px;
+        padding: 0 10px;
+    }
+
+    .faq-heading::after {
+        width: 20%;
+        height: 2.5px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .wide {
+        margin: 0 auto;
+    }
+
+    .service-item {
+        min-height: 238px;
+    }
+
+    .service-item:nth-child(2) {
+        left: -20px;
+    }
+
+    .service-item:not(:nth-child(2)) {
+        left: 80px;
+    }
+
+    .reason-wrap {
+        width: 980px;
+    }
+}
+

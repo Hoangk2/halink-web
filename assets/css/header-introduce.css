@@ -154,6 +154,7 @@ body {
 }
 
 .sub-header-list {
+    pointer-events: none;
     visibility: none;
     position: absolute;
     top: var(--sub-header-height);
@@ -451,6 +452,10 @@ body {
         padding-right: 10px;
     }
 
+    .nav-list-item:last-child a {
+        padding: 0;
+    }
+
     .nav-list-item a  {
         font-size: 1.17rem;
     }
@@ -465,5 +470,19 @@ body {
 
     .nav-list-plus {
         display: none;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .header-site-container {
+        width: 980px;
+    }
+    .sub-header-container {
+        width: 980px;
+        padding: 0 15px;
+    }
+
+    .nav-list-item a {
+        font-size: 1.2rem;
     }
 }

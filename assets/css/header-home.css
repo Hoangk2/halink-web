@@ -1,6 +1,7 @@
 .header {
     height: var(--header-homepage-height);
     position: relative;
+    padding: 0 30px;
 }
 
 .header-container.row {
@@ -60,7 +61,7 @@
 .nav-item a {
     font-weight: 500;
     letter-spacing: 1px;
-    color: var(--black);
+    color: #4F4F4F;
     padding: 0 6px;
     text-transform: uppercase;
 }
@@ -105,6 +106,7 @@
 }
 
 .sub-list {
+    pointer-events: none;
     visibility: none;
     position: absolute;
     top: var(--header-homepage-height);
@@ -322,7 +324,7 @@
     }
     
     .header {
-        height: 60px;
+        min-height: 60px;
         padding: 0 30px;
     }
 
@@ -341,82 +343,12 @@
     }
 
     .header-nav > .nav-item a {
-        font-size: 1rem;;
+        font-size: 1rem;
+        color: #4F4F4F;
     }
 
-        .slide .slide-desc {
-        font-size: 1.6rem;
-        margin: 10px 0 40px;
-        letter-spacing: 0.5px;
-    }
-
-    .slogan {
-        width: 570px;
-        margin: 30px auto 40px;
-        padding: 0 30px;
-    }
-
-    .slogan .title {
-        font-size: 2.2rem;
-    }
-
-    .slogan em {
-        font-size: 1.5rem;
-        line-height: 1.5;
-        letter-spacing: 1px;
-    }
-
-    .content {
-        margin-bottom: 50px;
-    }
-
-    .content .grid.wide {
-        width: 720px;
-    }
-
-    .content-heading-desc {
-        font-size: 1.5rem;
-    }
-
-    .content-service .service-item,
-    .content-service .service-item.right {
-        left: 0;
-    }
-
-    .content .content-wrap .content-img {
-        width: 600px;
-    }
-
-    .slogan::after {
-        bottom: -5%;
-        width: 15%;
-    }
-
-    .reason-container {
-        max-width: 800px;
-        padding: 0 15px;
-    }
-
-    .reason .reason-wrap {
-        width: 100%;
-    }
-
-    .reason-wrap h3 {
-        font-size: 8rem;
-    }
-
-    .reason-wrap p {
-        font-size: 2rem;
-    }
-
-    .faq-container {
-        max-width: 740px;
-        padding: 0 10px;
-    }
-
-    .faq-heading::after {
-        width: 20%;
-        height: 2.5px;
+    .header-tool .phone i {
+        display: none;
     }
 
     .btn {
@@ -430,4 +362,28 @@
         font-size: 2.2rem;
     }
 
+}
+
+@media (min-width: 1024px) and (max-width: 1113px) {
+    .header-tool .phone.btn,
+    .header-tool .advise.btn {
+        font-size: 1.1rem;
+        padding: 0 15px;
+    }
+
+    .header-tool .phone.btn i {
+        display: none;
+    }
+
+    .nav-item {
+        font-size: 1rem;
+    }
+
+    .header-tool .gift .icon {
+        font-size: 1.8rem;
+    }
+
+    .header-logo  {
+        width: 67px;
+    }
 }

@@ -79,3 +79,9 @@ a {
         --header-homepage-height: 60px;
     }
 }
+
+@media (min-width: 1024px) and (max-width: 1113px) {
+    :root {
+        --header-homepage-height: 60px;
+    }
+}

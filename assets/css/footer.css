@@ -162,6 +162,10 @@
     transform: translateX(8px);
 }
 
+.footer-bottom .row {
+    padding: 0 30px;
+}
+
 .footer-bottom-img {
     display: flex;
     justify-content: center;
