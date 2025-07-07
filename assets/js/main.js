@@ -23,9 +23,9 @@ function getDataElement(method, url, callback, element) {
 const currentPage = window.location.pathname;
 
 if(currentPage === "/index.html" || currentPage === "/design.html") {
-    getDataElement("GET", "../partials/header_home.html", handleLogicWithData, headerHome);
+    getDataElement("GET", "partials/header_home.html", handleLogicWithData, headerHome);
 } else {
-    getDataElement("GET", "../partials/header_introduce.html", handleLogicWithData, headerHome);
+    getDataElement("GET", "partials/header_introduce.html", handleLogicWithData, headerHome);
 }
 
-getDataElement("GET", "../partials/footer.html", handleLogicWithData, footer);
+getDataElement("GET", "partials/footer.html", handleLogicWithData, footer);
