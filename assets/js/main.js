@@ -22,7 +22,7 @@ function getDataElement(method, url, callback, element) {
 
 const currentPage = window.location.pathname;
 
-if(currentPage.endsWith("/index.html") || currentPage.endsWith("/design.html")) {
+if(currentPage.includes("/index.html") || currentPage.includes("/design.html")) {
     getDataElement("GET", "partials/header_home.html", handleLogicWithData, headerHome);
 } else {
     getDataElement("GET", "partials/header_introduce.html", handleLogicWithData, headerHome);
